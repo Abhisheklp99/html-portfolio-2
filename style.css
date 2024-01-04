@@ -1,0 +1,197 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+
+/* Buttons */
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFEC;
+    margin-top: 5px;
+  
+}
+.button{
+background-color:#FFFFEC;
+border: none;
+cursor: pointer;
+font-size: 16px;
+font-weight: normal;
+color: rgb(60, 18, 18);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button:hover {
+    background-color:gainsboro;
+  }
+  a {
+    text-decoration: none;
+  }
+
+
+
+
+
+/* top container */
+.top-container {
+    background-color: #FFFFEC;
+    /* background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); */
+  
+    position: relative;
+    padding-top: 100px;
+ 
+  }
+.new-year{
+    position: absolute;
+    height: 150px;
+    top: 40px;
+    left: 90px;
+    margin-left:10px;
+}
+.mountain{
+    height: 150px;
+    top:40px;
+    position: absolute;
+    right: 90px;
+}
+.top-container > div > img{
+    height: 200px;
+    width: 200px;
+}
+
+
+/* common */
+h1{
+    color:rgba(193, 37, 37, 0.711);
+    font-size: 5.1rem;
+    margin: 100px auto 0 auto;
+    font-family: "Sacramento", cursive;
+
+}
+h2{
+font-size:3.8rem;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: hsla(10, 20%, 18%, 0.906);
+    font-weight:normal;
+}
+h4{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+
+    line-height: 2;
+}
+.span1{
+    color: #173a3aeb; 
+
+}
+
+/* end of common element css */
+
+
+
+
+
+/* middle container */
+.middle-container{
+    margin: 100px auto;
+    background-color: #f2e6e6;
+    
+}
+.Profile>img{
+    margin-top: 25px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+
+     /* intro scetion */
+.Intro{
+    color: rgb(55, 69, 81);
+    width: 45%;
+    margin: auto;
+}
+h4>p{
+    color: hsla(10, 20%, 18%, 0.906);
+    font-weight:normal;
+    margin-left: 50px;
+}
+
+
+/* skilss */
+
+#skills{
+    background-color: #f8eccf;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-flow: column wrap;
+
+}
+
+.skill-l1>img{
+    flex: 1;
+    height: 200px;
+    width: 200px;
+}
+.skill-l2>img{
+    flex: 1;
+    height: 200px;
+    width: 200px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:319px)and (max-width:480px){
+    .top-container{
+        margin: 10px 10px ;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .mountain{
+        right: 1px;
+        height:100px;
+    }
+    .new-year{
+        height: 100px;
+        left: 1px;
+    }
+    .top-container > div > img{
+        height: 100px;
+    }
+
+    /* middle container */
+    
+}
